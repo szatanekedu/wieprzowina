@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nauka o tuszy wieprzowej</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Elementy tuszy wieprzowej</h1>
+    <div id="game">
+        <div class="image-container" id="images">
+            <!-- Dynamicznie dodane obrazy -->
+        </div>
+        <div class="name-container" id="names">
+            <!-- Dynamicznie dodane nazwy -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
