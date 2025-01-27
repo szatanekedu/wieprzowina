@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    margin: 0;
+}
+
+#game {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.image-container, .name-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 10px;
+}
+
+.image-container img, .name-container div {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    cursor: pointer;
+}
+
+.name-container div {
+    text-align: center;
+    background-color: #e7e7e7;
+    cursor: pointer;
+}
+
+img {
+    object-fit: cover;
+}
+
+.dragging {
+    opacity: 0.5;
+}
